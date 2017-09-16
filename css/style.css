@@ -1,0 +1,285 @@
+fieldset {
+
+    padding: 15px;
+
+    border: 1px solid silver;
+
+}
+
+
+
+legend {
+
+    display: inline-block;
+
+    width: auto;
+
+    border: 0;
+
+    padding: 0 15px;
+
+}
+
+
+
+.radiosection h5{
+
+	margin-top: 0;
+
+    margin-bottom: 5px;
+
+    font-weight: 700;
+
+}
+
+
+
+#associationinputsection, #ownerinputsection, #otherinputsection, 
+
+#other, #plans-submitted, #noticecompleted, #cdr, #comp-dep-retrn, #comp-depnot-retrn{
+
+	display: none;
+
+}
+
+
+
+.radio label{
+
+	margin-bottom: 5px;
+
+}
+
+
+
+.radiosection .form-group label{
+
+	padding-left: 0;
+
+}
+
+
+
+label{
+
+	position: relative;
+
+}
+
+
+
+label.btn{
+
+    width: 100%;    
+
+    margin: 15px 0;
+
+}
+
+
+
+label input[type='file']{
+
+	opacity: 0;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    height: 34px;
+
+}
+
+
+
+.form-control{
+
+    height: 40px;
+
+}
+
+
+
+.form-control__small{
+
+    max-width: 238px; 
+
+}
+
+
+
+.clearfix:before, .clearfix:after{
+
+    content: "";
+
+    clear: both;
+
+    display: block;
+
+}
+
+
+
+.form-inline .form-group{
+
+    display: block;
+
+}
+
+
+
+.sectionhide{
+
+    display: none;
+
+}
+
+
+
+.btn{
+
+    width: 100%;
+
+    height: 40px;
+
+}
+
+
+
+/*================*/
+
+table tr td{
+
+    width: 250px;
+
+}
+
+table .event{
+
+    display:block;
+
+    height: 100%;
+
+    width: 100%;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+table .event:last-child{
+
+    margin-bottom: 0;
+
+}
+
+
+
+table .event-ul{
+
+    padding: 0;
+
+    list-style: none;
+
+}
+
+
+
+table .event-ul li{
+
+    position: relative;
+
+}
+
+
+
+.desc-content{
+
+    display: none;
+
+    position: absolute;
+
+    padding: 0 5px;
+
+    z-index: 1;
+
+    width: 100%;
+
+    background-color: #fff;
+
+    box-shadow: 5px 5px 5px #888888;
+
+    left: 0;
+
+}
+
+
+
+.plans-submitted .form-group label, .noticecompleted .form-group label,
+
+.cdr .form-group label, .comp-dep-retrn .form-group label, .comp-depnot-retrn .form-group label{
+
+    padding-left: 0;
+
+}
+
+
+
+.label-visihide{
+
+    opacity: 0;
+
+}
+
+
+
+#our_table>tbody>tr>th{
+
+    text-align: center;
+
+}
+
+
+
+#our_table>tbody>tr>td{
+
+    padding: 0;
+
+}
+
+
+
+#our_table>tbody>tr>td .main-event{
+
+    padding: 8px;
+
+    min-height: 124px;
+
+}
+
+
+.dash-inv-menu{
+    float:right; 
+    position:relative;
+    z-index:1;
+    padding-bottom: 0px;
+    margin-right: 10px;
+}
+
+
+@media (max-width: 767px){
+
+    .label-visihide{
+
+        display: none;
+
+    }    
+
+}
